@@ -27,7 +27,7 @@ export default function generatePage(randomId: string) {
         <main class="main">
         <div class='container'>
            <h1> Short URL :</h1>
-           <input type='text' value='${Deno.env.get('SITE_URL')}/?id=${randomId}' class="input"/>
+           <input type='text' value='${Deno.env.get('SITE_URL')}/?id=${randomId}' class="input" readonly/>
            <a href='/'><button  class='btn'>Make Another</button></a>
         </div>     
         </main>
