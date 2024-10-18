@@ -29,6 +29,6 @@ a,a:visited,a:active,a:hover{
 
 @media(max-width:800px){
     .input{
-        width:400px;
+        width:200px;
     }
 }
