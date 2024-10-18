@@ -25,11 +25,9 @@ export default function generatePage(randomId: string) {
             <p>This is a simple url shortener written using OpenKV and Deno</p>
         </header>
         <main class="main">
-        <div class='container'>
            <h1> Short URL :</h1>
            <input type='text' value='${Deno.env.get('SITE_URL')}/?id=${randomId}' class="input" readonly/>
-           <a href='/'><button  class='btn'>Make Another</button></a>
-        </div>     
+           <a href='/'><button  class='btn'>Make Another</button></a>    
         </main>
     </div>
 </body>
